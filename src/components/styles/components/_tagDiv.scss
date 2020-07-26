@@ -1,0 +1,25 @@
+.displayTags {
+    margin-top: 3rem;
+
+    span {
+        margin-right: 1rem;
+    }
+    .tag {
+        padding: 1rem;
+        border-radius: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &--all{
+            background-color: yellow;
+        }
+        &--incomplete{
+            background-color: red;
+        }
+        &--complete{
+            background-color: greenyellow;
+            margin-right: 0;
+        }
+    }
+}

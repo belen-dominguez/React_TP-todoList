@@ -1,0 +1,12 @@
+.btn {
+    cursor: pointer;
+    font-size: 20px;
+
+    &--add {
+        color: red;
+    }
+
+    &--trash {
+        color: grey;
+    }
+}
